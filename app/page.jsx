@@ -1,3 +1,9 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
-  return <div className="bg-black-500">Hi</div>;
+  return (
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+    </main>
+  );
 }
