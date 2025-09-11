@@ -58,190 +58,122 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "LMS SaaS Platform",
+    desc: "A multi-tenant Learning Management System with secure subscriptions, OTP/JWT authentication, and role-based access for admins, instructors, and students.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Built with Express.js, Drizzle ORM, and PostgreSQL, this SaaS backend supports course creation, quizzes, and progress tracking with scalable APIs.",
+    href: "https://github.com/AbdullahBakouni/Lms_Sass_App",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
-    logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
-    },
-    spotlight: "/assets/spotlight1.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
-    subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
       boxShadow: "0px 0px 60px 0px #2F6DB54D",
     },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      { id: 1, name: "Express.js", path: "/assets/express.png" },
+      { id: 2, name: "PostgreSQL", path: "/assets/postgress.png" },
+      {
+        id: 3,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 5,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+    ],
+  },
+  {
+    title: "Car Connect",
+    desc: "A vehicle marketplace featuring AI-powered price prediction, secure escrow payments, and full rental scheduling with user/company verification.",
+    subdesc:
+      "Developed with Laravel and MySQL, integrated with Syriatel Cash, e-wallets, and admin dashboards to ensure safe transactions and dispute resolution.",
+    href: "https://github.com/AbdullahBakouni/car-connect-backend",
+    texture: "/textures/project/project5.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
     spotlight: "/assets/spotlight2.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "Laravel", path: "/assets/laravel.png" },
+      { id: 2, name: "MySQL", path: "/assets/mysql.png" },
+      { id: 3, name: "AI Regression", path: "/assets/ai.png" },
+      { id: 4, name: "PHP", path: "/assets/php.png" },
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "X Motors",
+    desc: "A bilingual car listing platform with advanced filters, optimized image handling, and responsive design for dealers and buyers.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
+      "Built with React.js, Laravel, and Inertia.js. Implemented caching, WebP conversion, and lazy loading to reduce load times by 60%.",
+    href: "https://github.com/AbdullahBakouni/X-Motors",
+    texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo3.png",
-    logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
-    },
-    spotlight: "/assets/spotlight3.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-    subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
       border: "0.2px solid #0E2D58",
       boxShadow: "0px 0px 60px 0px #2F67B64D",
     },
-    spotlight: "/assets/spotlight4.png",
+    spotlight: "/assets/spotlight3.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "Laravel", path: "/assets/laravel.png" },
+      { id: 3, name: "Inertia.js", path: "/assets/js.png" },
+      { id: 4, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "Screen Recording Platform",
+    desc: "A full-stack web app enabling real-time screen recording, secure video sharing, and role-based access control.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
+      "Developed with Next.js and PostgreSQL (Xata). Features include dynamic iframe sharing, optimized video storage, and MediaStream API integration.",
+    href: "https://github.com/AbdullahBakouni/Screen-Recording-Platform",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/project-logo4.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
       border: "0.2px solid #252262",
       boxShadow: "0px 0px 60px 0px #635BFF4D",
     },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      { id: 1, name: "Next.js", path: "/assets/Next.js.png" },
+      { id: 2, name: "PostgreSQL", path: "/assets/postgress.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "MediaStream API", path: "/assets/media.png" },
+      { id: 5, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+    ],
+  },
+  {
+    title: "Thread Scoute",
+    desc: "A social networking platform with threads, communities, and personalized feeds powered by custom algorithms.",
+    subdesc:
+      "Built with Next.js, TypeScript, and MongoDB. Integrated Clerk for authentication and implemented CRUD features for dynamic content.",
+    href: "https://github.com/AbdullahBakouni/Thread-Scoute",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/project-logo5.png",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
     spotlight: "/assets/spotlight5.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "Next.js", path: "/assets/Next.js.png" },
+      { id: 2, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 3, name: "MongoDB", path: "/assets/mongo.png" },
+      { id: 4, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
     ],
   },
 ];
@@ -264,13 +196,6 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
         : isTablet
           ? [5, 4, 0]
           : [12, 3, 0],
-    ringPosition: isSmall
-      ? [-5, 7, 0]
-      : isMobile
-        ? [-10, 10, 0]
-        : isTablet
-          ? [-12, 10, 0]
-          : [-24, 10, 0],
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
