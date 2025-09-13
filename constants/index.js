@@ -209,32 +209,23 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Topex",
+    pos: "Team Leader, Full Stack Developer",
+    duration: "2025 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "Developed a shipment management system for a logistics company in Dubai. Built secure APIs, automated workflows, and integrated payment modules to streamline operations and improve efficiency.",
+    icon: "/assets/topex.jpg",
     animation: "victory",
   },
+
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Brainshoring",
+    pos: "Full Stack Developer",
+    duration: "2023 - 2025",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "Collaborated with an RPA solutions company to integrate backend systems with robotic process automation workflows. Designed clean APIs and scalable architecture to support enterprise clients.",
+    icon: "/assets/brain.jpg",
     animation: "clapping",
-  },
-  {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
   },
 ];
