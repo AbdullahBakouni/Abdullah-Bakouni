@@ -24,35 +24,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
+    name: "Topex",
+    position: "Shipment Company, Dubai",
+    img: "assets/topex.jpg",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "We partnered with Abdullah to modernize our shipment management system. He delivered a secure, scalable platform tailored to our logistics workflows. His ability to understand business needs and translate them into technical solutions was outstanding.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
+    name: "Ali Yasmeni",
+    position: "Owner of Car Rental Business",
+    img: "assets/ali.jpg",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Abdullah built a powerful car rental and listing platform for my business. From advanced booking features to AI-powered price evaluation, everything was implemented with precision. The platform made our operations smoother and improved customer trust.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
+    name: "Bashar Shekani",
+    position: "Employee at International Organization",
+    img: "assets/bashar.jpg",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I had the chance to work with Abdullah on a custom software project. He showed excellent problem-solving skills and delivered a reliable solution that met strict organizational requirements. His professionalism and dedication were clear from day one.",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
+    name: "Brainshoring",
+    position: "RPA Solutions Company",
+    img: "assets/brain.jpg",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "Abdullah collaborated with our team to integrate web apps with robotic process automation systems. His backend expertise and clean API design allowed us to scale faster and serve enterprise clients more effectively. A true asset for tech-driven companies.",
   },
 ];
 
