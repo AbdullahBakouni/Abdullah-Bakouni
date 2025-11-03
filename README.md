@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 Abdullah Bakouni — 3D Portfolio
 
-## Getting Started
+[![Three.js](https://img.shields.io/badge/3D-Three.js-black?logo=three.js)]()
+[![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)]()
+[![Vite](https://img.shields.io/badge/Build-Vite-yellow?logo=vite)]()
+[![Deployment](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)]()
 
-First, run the development server:
+> A fully interactive **3D developer portfolio** built using **Three.js**, **React**, and **Vite**,  
+> showcasing modern WebGL animations, dynamic lighting, and smooth UI transitions — designed and developed by **Abdullah Bakouni**.
 
+---
+
+## 🖥️ Overview
+
+This portfolio brings 3D storytelling to the web — featuring:
+- Realistic 3D scenes powered by **Three.js**
+- Seamless navigation and responsive layout
+- Smooth scroll-based animations and dynamic lighting
+- Fast build and hot-reload with **Vite**
+- Deployed for optimal performance on **Vercel**
+
+---
+
+## 🧱 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Rendering | Three.js / React Three Fiber |
+| Framework | React 18 + Vite |
+| Animation | GSAP / Framer Motion |
+| Styling | TailwindCSS |
+| Deployment | Vercel |
+| 3D Assets | Blender / GLTF Models |
+
+---
+
+## ✨ Features
+
+- 🌌 Interactive 3D environment and camera movement  
+- 🧩 Responsive design for all screen sizes  
+- ⚡ Optimized with Vite and lazy-loaded models  
+- 🎨 Dynamic lighting and real-time shading  
+- 📜 About, Skills, and Projects sections in 3D space  
+- 🧭 Smooth transitions with React Router or Framer Motion  
+
+---
+
+## 🗺️ Architecture Diagram
+
+```mermaid
+flowchart TD
+    U[User Browser] --> R[React and Vite App]
+    R --> T[Three.js Renderer]
+    T --> G[GLTF or 3D Models]
+    R --> A[Animation Layer - GSAP and Framer Motion]
+    R --> S[UI Components]
+    S --> U
+```
+# ⚙️ Installation
+1️⃣ Clone the repository
+```bash
+git clone https://github.com/AbdullahBakouni/Abdullah-Bakouni.git
+cd Abdullah-Bakouni
+```
+2️⃣ Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+3️⃣ Run locally
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🌍 Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project is fully optimized for Vercel.
+Simply push your repo and connect it via https://vercel.com
+.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tip: Ensure your 3D assets are compressed (GLTF/DRACO) for best load times.
 
-## Learn More
+# 📦 Folder Structure
+```css
+📦 Abdullah-Bakouni
+ ┣ 📂 src
+ ┃ ┣ 📂 components
+ ┃ ┣ 📂 assets
+ ┃ ┣ 📂 scenes
+ ┃ ┣ 📜 App.jsx
+ ┃ ┗ 📜 main.jsx
+ ┣ 📜 vite.config.js
+ ┣ 📜 package.json
+ ┣ 📜 README.md
+ ┗ 📜 .env.example
+```
+# 🛠️ Environment Variables
+```env
+# Optional environment variables for API / analytics integrations
+VITE_EMAIL_SERVICE_KEY=your_service_key
+VITE_ANALYTICS_ID=your_analytics_key
+```
+# 🛣️ Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+ Add interactive contact form with email.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ Add environment reflections and HDR lighting
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ Optimize 3D models for mobile devices
 
-## Deploy on Vercel
+ Add sound effects and ambient music
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pull requests are welcome.
+Fork the repo → Create your branch → Commit → Open a PR 🎉
+
+# 📜 License
+
+Licensed under the MIT License © 2025 [Abdullah Bakouni](https://github.com/AbdullahBakouni)
+
+# 🌐 Visit My Website
+
+👉 https://abdullah-bakouni.vercel.app
