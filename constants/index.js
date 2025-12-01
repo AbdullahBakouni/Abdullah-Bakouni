@@ -58,37 +58,70 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "LMS SaaS Platform",
-    desc: "A multi-tenant Learning Management System with secure subscriptions, OTP/JWT authentication, and role-based access for admins, instructors, and students.",
+    title: "Sentinel DevOps Monitor",
+    desc: "A DevOps monitoring platform that detects Docker containers and Kubernetes pods, tracking performance metrics and real-time status updates.",
     subdesc:
-      "Built with Express.js, Drizzle ORM, and PostgreSQL, this SaaS backend supports course creation, quizzes, and progress tracking with scalable APIs.",
-    href: "https://github.com/AbdullahBakouni/Lms_Sass_App",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+      "Built with Nest.js, PostgreSQL, GraphQL, Redis Pub/Sub, Prisma ORM, and WebSocket in a microservices architecture. Integrated Gemini API for service insights.",
+    href: "https://github.com/AbdullahBakouni/devops-monitor",
+    texture: "/textures/project/devops.mp4",
+    logo: "/assets/project-logo6.webp",
     logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+      backgroundColor: "#0F172A",
+      border: "0.2px solid #1E293B",
+      boxShadow: "0px 0px 60px 0px #3B82F64D",
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
-      { id: 1, name: "Express.js", path: "/assets/express.png" },
+      { id: 1, name: "Nest.js", path: "/assets/Nest.js.png" },
+      { id: 2, name: "GraphQL", path: "/assets/GraphQL.png" },
+      { id: 3, name: "Redis", path: "/assets/Redis.png" },
+      { id: 4, name: "Prisma ORM", path: "/assets/prisma.png" },
+      { id: 5, name: "Docker", path: "/assets/Docker.png" },
+      { id: 6, name: "K8S", path: "/assets/Kubernetes.png" },
+    ],
+  },
+  {
+    title: "Horizon Banking Platform",
+    desc: "A modern online banking application enabling users to connect global bank accounts and manage secure real-time transactions.",
+    subdesc:
+      "Developed with Next.js, PostgreSQL, Docker, Plaid API, and Dwolla. Implemented secure transaction handling, role-based access, and audit logs with a responsive financial dashboard.",
+    href: "https://github.com/AbdullahBakouni/Banking-App",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/project-logo4.png",
+    logoStyle: {
+      backgroundColor: "#172554",
+      border: "0.2px solid #1E3A8A",
+      boxShadow: "0px 0px 60px 0px #2563EB4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      { id: 1, name: "Next.js", path: "/assets/Next.js.png" },
       { id: 2, name: "PostgreSQL", path: "/assets/postgress.png" },
-      {
-        id: 3,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 5,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
+      { id: 3, name: "Plaid API", path: "/assets/Plaid.png" },
+      { id: 4, name: "Dwolla", path: "/assets/dwolla.svg" },
+      { id: 5, name: "Docker", path: "/assets/Docker.png" },
+    ],
+  },
+  {
+    title: "StockPulse Market Tracker",
+    desc: "A real-time stock monitoring platform providing live market data, personalized alerts, and detailed company insights.",
+    subdesc:
+      "Built with Next.js, MongoDB, Redis, and Docker. Used BullMQ and Inngest for background jobs and Gmail API with Gemini AI for dynamic, user-tailored email notifications.",
+    href: "https://github.com/AbdullahBakouni/Stock-market",
+    texture: "/textures/project/signalist.webm",
+    logo: "/assets/project-logo8.svg",
+    logoStyle: {
+      backgroundColor: "#083344",
+      border: "0.2px solid #164E63",
+      boxShadow: "0px 0px 60px 0px #06B6D44D",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      { id: 1, name: "Next.js", path: "/assets/Next.js.png" },
+      { id: 2, name: "MongoDB", path: "/assets/mongo.png" },
+      { id: 3, name: "Redis", path: "/assets/Redis.png" },
+      { id: 4, name: "BullMQ", path: "/assets/bullmq.png" },
+      { id: 5, name: "Gemini AI", path: "/assets/gemini.png" },
     ],
   },
   {
@@ -97,7 +130,7 @@ export const myProjects = [
     subdesc:
       "Developed with Laravel and MySQL, integrated with Syriatel Cash, e-wallets, and admin dashboards to ensure safe transactions and dispute resolution.",
     href: "https://github.com/AbdullahBakouni/car-connect-backend",
-    texture: "/textures/project/project5.mp4",
+    texture: "/textures/project/car.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#2A1816",

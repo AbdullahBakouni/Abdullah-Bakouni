@@ -3,7 +3,7 @@ import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import CanvasLoader from "./Loading";
-import { Leva } from "leva";
+// import { Leva } from "leva";
 import HackerRoom from "./HackerRoom";
 import { calculateSizes } from "@/constants";
 import { useMediaQuery } from "react-responsive";
@@ -39,7 +39,7 @@ export default function Hero() {
               />
             </HeroCamera>
             <group>
-              <Target position={sizes.targetPosition} />
+              {/* <Target position={sizes.targetPosition} />*/}
               <ReactLogo position={sizes.reactLogoPosition} />
               <Cube position={sizes.cubePosition} />
             </group>
