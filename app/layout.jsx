@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Abdullah Bakouni",
   description: "A Full Stack Developer",
+  icons: {
+    icon: "/assets/abdullah.png",
+  },
 };
 
 export default function RootLayout({ children }) {

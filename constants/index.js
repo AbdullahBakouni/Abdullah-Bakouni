@@ -151,8 +151,8 @@ export const myProjects = [
     subdesc:
       "Built with React.js, Laravel, and Inertia.js. Implemented caching, WebP conversion, and lazy loading to reduce load times by 60%.",
     href: "https://github.com/AbdullahBakouni/X-Motors",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo3.png",
+    texture: "/textures/project/xmotors.mp4",
+    logo: "/assets/xmotors-logo.jpg",
     logoStyle: {
       backgroundColor: "#0E1F38",
       border: "0.2px solid #0E2D58",
@@ -172,8 +172,8 @@ export const myProjects = [
     subdesc:
       "Developed with Next.js and PostgreSQL (Xata). Features include dynamic iframe sharing, optimized video storage, and MediaStream API integration.",
     href: "https://github.com/AbdullahBakouni/Screen-Recording-Platform",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo4.png",
+    texture: "/textures/project/snap-cast.mp4",
+    logo: "/assets/logo2.svg",
     logoStyle: {
       backgroundColor: "#1C1A43",
       border: "0.2px solid #252262",
@@ -194,8 +194,8 @@ export const myProjects = [
     subdesc:
       "Built with Next.js, TypeScript, and MongoDB. Integrated Clerk for authentication and implemented CRUD features for dynamic content.",
     href: "https://github.com/AbdullahBakouni/Thread-Scoute",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo5.png",
+    texture: "/textures/project/thread-scout.mp4",
+    logo: "/assets/logo3.svg",
     logoStyle: {
       backgroundColor: "#60f5a1",
       border: "0.2px solid rgba(208, 213, 221, 1)",
