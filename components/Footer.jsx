@@ -16,10 +16,30 @@ const Footer = () => {
 
         <Link
           className="social-icon"
-          href="https://inkedin.com/in/abdullah-bakouni-099024347"
+          href="https://linkedin.com/in/abdullah-bakouni-099024347"
         >
           <img
             src="/assets/linkedin.png"
+            alt="linkedin"
+            className="w-1/2 h-1/2"
+          />
+        </Link>
+        <Link
+          className="social-icon"
+          href="https://instagram.com/abdullah_bakouni"
+        >
+          <img
+            src="/assets/instagram.svg"
+            alt="instagram"
+            className="w-1/2 h-1/2"
+          />
+        </Link>
+        <Link
+          className="social-icon"
+          href="https://facebook.com/abdalla.bakouni"
+        >
+          <img
+            src="/assets/facebook.png"
             alt="linkedin"
             className="w-1/2 h-1/2"
           />

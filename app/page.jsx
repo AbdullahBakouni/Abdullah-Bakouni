@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="max-w-7xl mx-auto">
       <Navbar />
-      <Hero />
+      {/* <Hero />*/}
       <About />
       <Projects />
       <Clients />
